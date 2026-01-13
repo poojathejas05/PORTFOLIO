@@ -313,7 +313,7 @@ form btn2{
   /* Header */
   #header {
     height: 100vh;
-    background-image: url("image/phone.png");
+    background-image: url("phone.png");
     background-position: center;
     background-size: cover;
   }
@@ -395,4 +395,5 @@ form btn2{
     font-size: 14px;
   }
 }
+
 
