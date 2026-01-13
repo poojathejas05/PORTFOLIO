@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>personal protfolio</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    </head>
+    <body>
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <ul class="nav-links">
+                        <li><a href="#header-text">Home</a></li>
+                        <li><a href="#about">about</a></li>
+                        <li><a href="#services">Service</a></li>
+                        <li><a href="#portfolio">protfolio</a></li>
+                        <li><a href="#contact">contact</a></li>
+                         <i class="fas fa-bars menu-icon"></i>
+                    </ul>  
+                    <i class="fas fa-bars bar-icon"></i>
+                </nav>
+                <div class="header-text">
+                    <p>FRONTEND DEVELOPER</p>
+                    <h1>Hi, i'm <span>Pooja Thejas</span><br>From India</h1>
+                </div>
+            </div>
+        </div>
+
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="image/1000009244.jpg">
+                    </div>
+                    <div class="about-col-2">
+                         <h1 class="sub-title">About Me</h1>
+                         <p>I'm Pooja Thejas , and I am currently pursuing a Bachelor of Computer Applications (BCA) at SNGC College, Coimbatore. I am a dedicated and enthusiastic student with a strong interest in software development and web technologies.
+
+                            I have basic working knowledge of Python, Java, HTML, CSS, JavaScript, and SQL, and I am continuously improving my skills through practice, coursework, and hands-on learning. These technologies have helped me build a solid understanding of programming logic, database concepts, and front-end development.</p>
+                            </div>
+                               <div class="tab-titles">
+                                <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                                <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                                <p class="tab-links" onclick="opentab('Education')">Education</p>
+                               </div>
+                               <div class="tab-contents active-tab" id="Skills">
+                                <ul>
+                                    <li><span>UI/UX</span><br>Designing web/app interface</li>
+                                    <li><span>WEB DEVELOPMENT</span><br>Web app development</li>
+                                    <li><span>APP DEVELOPMENT</span><br>building Android/ios app</li>
+                                </ul>
+                               </div>
+                               <div class="tab-contents" id="Experience">
+                                <ul>
+                                <li>No Experience Yet(student)</li>
+                                </ul>
+                               </div>
+                               <div class="tab-contents" id="Education">
+                                <ul>
+                                    <li><span>Higher Studies:</span> KHSS kannadi palakad,kerala</li>
+                                    <li><span>Degree(BCA):</span>SNGC College, Coimbatore</li>
+                                </ul>   
+                            </div>
+                     </div>
+                 </div>
+        </div>
+        <!-------serives-------->
+        <div id="services">
+            <div class="container">
+                 <h1 class="sub-title">My Serviecs</h1>
+                 <div class="services-list">
+                    <div>
+                        <i class="fa-solid fa-code"></i>
+                        <h2>Web Design</h2>
+                        <p>the process of creating visually appealing and functional websites. 
+                            It involves several key components that work together to create a positive user experience</p>
+                        <a href="https://en.wikipedia.org/wiki/Web_design  ">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-palette"></i>
+                        <h2>UI/UX Design</h2>
+                        <p>the process of creating user-friendly and visually appealing digital products</p>
+                        <a href="https://www.innovation.wiki/en/method/ux-ui-design/">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-mobile-screen"></i>
+                        <h2>App Design</h2>
+                        <p> the process of creating the visual interface (UI) and user experience (UX) for a mobile or web application. 
+                            It combines branding, layout, and functionality to ensure the app is both attractive and easy to use.</p>
+                        <a href="https://en.wikipedia.org/wiki/Mobile_app_development">Learn more</a>
+                    </div>
+                 </div>
+            </div>
+        </div>
+<!--------portfolio--------->
+    <div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My work</h1>
+
+        <div class="work-list">
+
+            <div class="work">
+                <img src="image1.png">
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>The app connects you to the talented people around the world.</p>
+                    <a href="https://en.wikipedia.org/wiki/List_of_social_platforms_with_at_least_100_million_active_users"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="image2.png">
+                <div class="layer">
+                    <h3>Music App</h3>
+                    <p>The app connects you to the talented people music around the world.</p>
+                    <a href="https://en.wikipedia.org/wiki/Music_(app)"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!-----contact------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <div class="social-icons">
+                    <a href="tel:+910000000">
+                    <i class="fa-solid fa-phone"></i></a>
+                    <a href="https://wa.me/9100000000" target="_blank">
+                    <i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="mailto:poojathejas05@gmail.com">
+                    <i class="fa-solid fa-envelope"></i></a>
+                   <a href="https://www.instagram.com/pooj_a.thejas" target="_blank">
+                   <i class="fa-brands fa-instagram"></i></a>
+                   <a href="https://www.linkedin.com/in/pooja-thejas" target="_blank">
+                   <i class="fa-brands fa-linkedin"></i></a> 
+                </div>
+                <a href="resume.poojafinal.pdf" class="btn">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="5" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © 2025 Pooja. Made with ❤️ by Pooja</p>
+    </div>
+</div>
+             <script>
+
+                var tablinks = document.getElementsByClassName("tab-links");
+                var tabcontents = document.getElementsByClassName("tab-contents");
+
+                function opentab(tabname) {
+                    for (tablink of tablinks){
+                        tablink.classList.remove("active-link");
+                      }
+                    for (tabcontent of tabcontents){
+                        tabcontent.classList.remove("active-tab");
+                    }
+                    event.currentTarget.classList.add("active-link");
+                    document.getElementById(tabname).classList.add("active-tab");
+                }
+             </script>
+    </body>
+</html>
